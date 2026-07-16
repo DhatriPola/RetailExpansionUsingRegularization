@@ -84,7 +84,7 @@ I then looked for any statistical relationships, correlations, or other relevant
 A heatmap of correlations using `Seaborn` follows:
 
 <p align="center">
-   <img src="https://github.com/marcotav/retail-store-expansion-analysis/blob/master/hm3.png" width="400">
+   <img src="https://github.com/DhatriPola/RetailExpansionUsingRegularization/blob/main/images/heatmap.png" width="400">
 <p/>
 
 To generate scatter plots for all the predictors (which provided similar information as the correlation matrices) we write:
@@ -95,7 +95,7 @@ for ax in g.axes.flatten():    # from [6]
         tick.set(rotation=90);
 ```
 <p align="center">
-   <img src="https://github.com/marcotav/retail-store-expansion-analysis/blob/master/output.png" width="700">
+   <img src="https://github.com/DhatriPola/RetailExpansionUsingRegularization/blob/main/images/predictions.png" width="700">
 <p/>
 
 
@@ -154,7 +154,7 @@ model = ridge.fit(X,y)
 I then plotted the predictions versus the true value:
 
 <p align="center">
-   <img src="https://github.com/marcotav/retail-store-expansion-analysis/blob/master/test.jpg" width="500">
+   <img src="https://github.com/DhatriPola/RetailExpansionUsingRegularization/blob/main/images/scatterplot.png" width="500">
 <p/>
 
 <a id = 'conc'></a>
