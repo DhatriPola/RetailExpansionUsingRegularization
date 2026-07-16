@@ -1,4 +1,4 @@
-## Retail Expansion Analysis with Lasso and Ridge Regressions
+## Retail Market Expansion Analysis: Identifying High-Potential Store Locat
 
 <p align="center">
   <a href="#summary"> Summary </a> •
